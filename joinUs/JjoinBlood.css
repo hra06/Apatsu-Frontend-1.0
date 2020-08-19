@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-image:url(images/bg3.jpg);  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black; 
+    color: white;
+    /* opacity: 80%; */
+}
+
+/* Nav or Header Property */
+
+header{
+    background-color: black;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px white;
+}
+
+header img{
+    height: 7vh;
+    
+}
+
+header ul{
+    width: 42vw;
+    display: flex;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .1rem;
+    justify-content: space-around;
+}
+header ul li{
+    padding: 5px;
+    font-size: 1rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+header input{
+    width: 40vw;
+    height: 3vh;
+    overflow: hidden;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: white 1px solid;
+    float: left;    
+    font-family: 'Inter', sans-serif;
+}
+
+header ul li a:hover{
+    color: whitesmoke;
+}
+input::placeholder{
+    font-family: 'Inter', sans-serif;
+    color:white;
+}
+
+
+
+
+
+/* Ambulance Reg */
+
+#reg-amb{
+    padding: 5vh 5vw;
+    background-color: black;
+    border-radius: 3rem;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+}
+
+#med-amb label{
+    display: inline-block;
+    width: 11rem;
+    text-align: left;
+    font-weight: bold;
+    /* background-color: thistle; */
+    padding-top: 2vh;
+}
+
+#med-amb div input{
+    width: 28vw;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#med-amb ul{
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+
+/* #extra{
+    padding-left: 0;
+    margin-left: 0;
+} */
+
+#submit{
+    width: 40vw;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    color: red;
+    border: 1px solid red;
+    border-radius: 2rem;
+}
+#submit:hover{
+    transition: ease-in-out;
+    transition-delay: 50ms;
+    background-color: red;
+    color: black;
+}
+
+
+
+/* Footer */
+footer{
+    display: block;
+    padding-top: 5px;
+    border-top: 1px solid white;
+	width: 100vw;
+	height: auto;
+	display: flex;
+	background-color: black;
+	justify-content: space-around;
+	border: 1px soild black;
+	box-shadow: 2px soild black;
+}
+
+footer div{
+	font: monospace;
+	width: 30vw;
+	height: auto;
+	color: white;
+}
+/* 
+footer .sty{
+	font-size: 2rem;
+} */
+
+#contact{
+	display: flex;
+}
+footer ul{
+    list-style-type:none;
+	padding-bottom: 0.6rem;
+	font-size: 1.2rem;
+}
+
+div h6{
+    border-top: 1px solid #eae5e5;
+    box-shadow: 4px white;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
